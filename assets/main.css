@@ -30,6 +30,10 @@ body {
   padding-top: 0px;
 }
 
+.mainimage {
+  height: 500px;
+}
+
 /* Type Scale based on the Fibonacci Sequence */
 
 body {
@@ -64,20 +68,21 @@ b { font-weight: 700 }
 
 /* Color */
 
-body {
-     background-color: lightpink;
-}
-
 .nav, .info {
   background-color: #FFF;
 }
+
+.mainimage {
+     background-color: #45c9f6;
+}
+
 
 /* Grid Adopted from skeleton.css V2.0.4 www.getskeleton.com */
 
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 960px; 
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -100,7 +105,7 @@ body {
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    width: 80%; }
+    width: 90%; }
   .column,
   .columns {
     margin-left: 4%; }
