@@ -1,23 +1,39 @@
 /* -------------------------
    Table of Contents
    -------------------------
-   Links
+   Links, Colors, & Effects
    Layout
    Typography
-   Color
    Grid
    Fixes
   ------------------------- */
 
-/* Links */
+/* Links, Colors, & Effects */
 
 .nav {
   cursor: pointer;
 }
 
-.nav a {
-  color:inherit;
+a {
+  color: #000;
   text-decoration: none;
+  font-weight: 700;
+}
+
+body { color: #808080; }
+
+b {
+  color: #000;
+  font-weight: 700;
+}
+
+.nav, .info {
+  background-color: #fff;
+}
+
+.mainimage {
+  background-color: #45c9f6;
+  /* box-shadow: inset 1px 4px 9px -6px; */
 }
 
 /* Layout */
@@ -69,18 +85,7 @@ h3 {
   margin: 0px;
 }
 
-b { font-weight: 700 }
-
-/* Color */
-
-.nav, .info {
-  background-color: #FFF;
-}
-
-.mainimage {
-     background-color: #45c9f6;
-}
-
+.nowrap { white-space:nowrap; }
 
 /* Grid Adopted from skeleton.css V2.0.4 www.getskeleton.com */
 
