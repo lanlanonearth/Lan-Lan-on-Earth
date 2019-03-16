@@ -1,0 +1,20 @@
+/* browser reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-size: 1px; */
+}
+
+/* semantic HTML for legacy browsers */
+
+
+h1 {
+}
+
+/* border */
+
+p {
+  /* border-bottom: 1px solid #5D6063; */
+}

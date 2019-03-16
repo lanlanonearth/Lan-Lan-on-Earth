@@ -1,0 +1,79 @@
+/* site */
+* {
+ /* border: 1px solid red;  /* For debugging */
+}
+
+.site-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* semantic HTML for legacy browsers */
+section {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  background-color: green;;
+}
+
+.red {
+  background-color: gray;
+}
+
+article, aside, footer, nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  margin: 0 auto;
+  z-index: 1;
+
+}
+
+article {
+  flex-direction: column;
+}
+
+
+.nav {
+  /* position: fixed;
+  top: 0;
+  right: 0;
+  flex:1;
+  order: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+
+.nav__ul {
+  list-style-type: none;
+  padding: 0.5em;
+  /* display: inline; */
+}
+
+.nav__li {
+  /* display: inline; */
+  padding: 0.1em;
+}
+
+.preview {
+  /* width: 100%; */
+  /* display: flex; */
+}

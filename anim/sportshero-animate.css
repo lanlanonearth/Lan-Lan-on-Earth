@@ -1,0 +1,94 @@
+@keyframes swing {
+  0% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes rock {
+  0% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    background-position-x: 0em;
+  }
+  100% {
+    background-position-x: 120em;
+  }
+}
+
+@keyframes bump {
+  0% {
+    transform: translateY(calc(10vw * 0.2));
+  }
+  100% {
+    transform: translateY(0vw);
+  }
+}
+
+@keyframes roll-up {
+  0% {
+    background-position-y: -65em;
+  }
+  100% {
+    background-position-y: 0em;
+  }
+}
+
+.hand-up {
+  animation-name: bump;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-direction: reversealternate;
+}
+
+.yo-yo {
+  animation-name: swing, roll-up;
+  animation-duration: 1s, 2s;
+  animation-timing-function: ease-ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.shuttlecock {
+  animation-name: rock;
+  animation-duration: 750ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.basketball {
+  animation-name: spin, bump;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-direction: forwards;
+  animation-timing-function: linear;
+}
+
+.soccer {
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: forwards;
+  animation-timing-function: linear;
+}
