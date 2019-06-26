@@ -73,7 +73,7 @@
 
 .basketball {
     background: url(../svg/basketball-pattern.svg);
-    background-size: calc(var(--dif) * 9.2);
+    background-size: calc(var(--dif) * 12);
     width: calc(var(--dif) * 9.2);
     height: calc(var(--dif) * 9.2);
     border-radius: 50%;
