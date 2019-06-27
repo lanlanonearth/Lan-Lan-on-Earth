@@ -1,7 +1,7 @@
 /* svg components as div backgrounds */
 
 .stillparts {
-    background: url(../svg/stillparts.svg) 0 0; /* no-repeat; */
+    background: url(player-animation-svg/player-stillparts.svg) 0 0; /* no-repeat; */
     /* width: calc(var(--width) * 0.2); */
     /* width: var(--width); */
     /* --max: 100%;
@@ -23,7 +23,7 @@
 }
 
 .arm-up {
-  background: url(../svg/arm-up.svg) 0 0 no-repeat;
+  background: url(player-animation-svg/arm-up.svg) 0 0 no-repeat;
   width: calc(var(--dif) * 5.6);
   /* width: calc(56vw * 0.2); */
   height: calc(var(--dif) * 3.6);
@@ -35,7 +35,7 @@
 }
 
 .hand-up {
-  background: url(../svg/hand-up.svg) 0 0 no-repeat;
+  background: url(player-animation-svg/hand-up.svg) 0 0 no-repeat;
   width: calc(var(--dif) * 3.6);
   height: calc(var(--dif) * 4.2);
   position: absolute;
@@ -44,7 +44,7 @@
 }
 
 .armhand-down {
-  background: url(../svg/armhand-down.svg) 0 0 no-repeat;
+  background: url(player-animation-svg/armhand-down.svg) 0 0 no-repeat;
   width: calc(var(--dif) * 5.2);
   height: calc(var(--dif) * 7.6);
   position: absolute;
@@ -54,7 +54,7 @@
 }
 
 .feet-down {
-  background: url(../svg/feet-down.svg) 0 0 no-repeat;
+  background: url(player-animation-svg/feet-down.svg) 0 0 no-repeat;
   width: calc(var(--dif) * 4.8);
   height: calc(var(--dif) * 4.4);
   position: absolute;
@@ -63,7 +63,7 @@
 }
 
 .feet-up {
-  background: url(../svg/feet-up.svg) 0 0 no-repeat;
+  background: url(player-animation-svg/feet-up.svg) 0 0 no-repeat;
   width: calc(var(--dif) * 4.4);
   height: calc(var(--dif) * 4);
   position: absolute;
@@ -72,7 +72,7 @@
 }
 
 .basketball {
-    background: url(../svg/basketball-pattern.svg);
+    background: url(player-animation-svg/basketball-pattern.svg);
     background-size: calc(var(--dif) * 12);
     width: calc(var(--dif) * 9.2);
     height: calc(var(--dif) * 9.2);
@@ -83,7 +83,7 @@
 }
 
 .soccer {
-    background: url(../svg/soccer.svg) 0 0 no-repeat;
+    background: url(player-animation-svg/soccer.svg) 0 0 no-repeat;
     background-size: calc(var(--dif) * 9.2);
     width: calc(var(--dif) * 9.2);
     height: calc(var(--dif) *9.2);
@@ -94,7 +94,7 @@
 }
 
 .yo-yo {
-    background: url(../svg/yo-yo.svg) 0 0 no-repeat;
+    background: url(player-animation-svg/yo-yo.svg) 0 0 no-repeat;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
     width: calc(var(--dif) * 3.2);
     height: calc(var(--dif) * 12.2);
@@ -105,7 +105,7 @@
 }
 
 .shuttlecock {
-    background: url(../svg/shuttlecock.svg) 0 0 no-repeat;
+    background: url(player-animation-svg/shuttlecock.svg) 0 0 no-repeat;
     width: calc(var(--dif) * 5.2);
     height: calc(var(--dif) * 5.2);
     position: absolute;
