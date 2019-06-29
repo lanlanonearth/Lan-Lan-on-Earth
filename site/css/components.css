@@ -40,7 +40,7 @@ article {
 section {
   width: 100vw;
   height: 100vh;
-  display: block;
+  display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
@@ -62,4 +62,24 @@ aside {
 footer {
   width: 100%;
   display: flex;
+}
+
+/* special elements */
+
+.card-container {
+  background-color:white;
+  border-radius: 5vmin;
+  width: 66vmin;
+  height: 66vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-item-icon {
+  padding: 15vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
