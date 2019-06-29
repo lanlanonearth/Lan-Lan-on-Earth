@@ -68,7 +68,7 @@ footer {
 
 .card-container {
   background-color:white;
-  border-radius: 5vmin;
+  border-radius: 10vmin;
   width: 66vmin;
   height: 66vmin;
   display: flex;
