@@ -30,28 +30,27 @@ nav {
 article {
   width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
-
-.snapshot {}
 
 section {
   width: 100vw;
   height: 100vh;
   display: flex;
-  position: relative;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.green {
-  background-color: green;;
+.sportsplayer {
+  background-color: #1E8449;
 }
 
-.red {
-  background-color: gray;
+.everydayfood {
+  background-color: #D4AC0D;
+}
+
+.biodynamicfarming {
+  background-color: #FAE5D3;
 }
 
 aside {
@@ -67,19 +66,23 @@ footer {
 /* special elements */
 
 .card-container {
-  background-color:white;
-  border-radius: 10vmin;
-  width: 66vmin;
-  height: 66vmin;
+  width: 60vmin;
+  height: 60vmin;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.card-container2 {
+  width: 50vmin;
+  height: 50vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 .card-item-icon {
   padding: 15vmin;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
