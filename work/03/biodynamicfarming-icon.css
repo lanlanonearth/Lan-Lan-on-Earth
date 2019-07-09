@@ -1,20 +1,64 @@
-path {
+  .path-biodynamicfarming {
   fill: none;
   stroke: #000000;
-  stroke-width: 2px;
-  stroke-dasharray: 200;
+  stroke-width: 3px;
   stroke-linecap: round;
   stroke-linejoin: round;
-  animation: draw 5s infinite;
-  /* animation-delay: 1s; */
-  animation-fill-mode: backwards;
+
+  --pause: 5s;
+
+  stroke-dashoffset: 0.1%;
+  animation-name: stroke-animation;
+  animation-iteration-count: 2;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+  animation-delay: 0s;
+  animation-fill-mode: both;
 }
 
-@keyframes draw {
-  from {
-    stroke-dashoffset: 200;
+/* water */
+
+.rivertop-left, .rivertop-right,
+.riverbottom-left, .riverbottom-right {
+  animation-duration: 5s;
+}
+
+.wave-1, .wave-4 {
+  animation-duration: 5s;
+}
+
+.wave-2, .wave-3 {
+  animation-duration: 3s;
+  animation-delay: 3s;
+}
+
+/* tree */
+
+.treebase-left, .treebase-right,
+.tree-left, .tree-right,
+.trunk-1, .trunk-2, .trunk-3, .trunk-4 {
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+
+/* mountain & sky */
+
+.mountain-left, .mountain-right {
+  animation-duration: 3s;
+  animation-delay: 4s;
+}
+
+.cloud-left, .cloud-right,
+.sun {
+  animation-duration: 4s;
+  animation-delay: 6s;
+}
+
+@keyframes stroke-animation {
+  0% {
+    stroke-dasharray: 0% 150%;
   }
-  to {
-    stroke-dashoffset: 0;
+  100% {
+    stroke-dasharray: 150% 0%;
   }
 }
