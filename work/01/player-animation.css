@@ -177,7 +177,6 @@
   animation-name: bump;
   animation-duration: 500ms;
   animation-iteration-count: infinite;
-  animation-direction: reversealternate;
 }
 
 .yo-yo {
@@ -199,7 +198,6 @@
   animation-name: spin, bump;
   animation-duration: 150ms, 500ms;
   animation-iteration-count: infinite;
-  animation-direction: forwards;
   animation-timing-function: linear;
 }
 
@@ -207,6 +205,5 @@
   animation-name: rotate;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-direction: forwards;
   animation-timing-function: linear;
 }

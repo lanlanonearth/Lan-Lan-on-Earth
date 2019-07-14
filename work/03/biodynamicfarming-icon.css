@@ -5,60 +5,58 @@
   stroke-linecap: round;
   stroke-linejoin: round;
 
-  --pause: 5s;
+  --duration: 20s;
 
   stroke-dashoffset: 0.1%;
-  animation-name: stroke-animation;
-  animation-iteration-count: 2;
-  animation-timing-function: ease;
-  animation-direction: alternate;
-  animation-delay: 0s;
-  animation-fill-mode: both;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: backwards;
 }
-
-/* water */
 
 .rivertop-left, .rivertop-right,
 .riverbottom-left, .riverbottom-right {
-  animation-duration: 5s;
+  animation-name: stroke-animation;
 }
 
 .wave-1, .wave-4 {
-  animation-duration: 5s;
+  animation-name: stroke-animation;
 }
 
 .wave-2, .wave-3 {
-  animation-duration: 3s;
-  animation-delay: 3s;
+  animation-name: stroke-animation;
 }
-
-/* tree */
 
 .treebase-left, .treebase-right,
 .tree-left, .tree-right,
 .trunk-1, .trunk-2, .trunk-3, .trunk-4 {
-  animation-duration: 5s;
-  animation-delay: 2s;
+  animation-name: stroke-animation;
 }
 
-/* mountain & sky */
-
 .mountain-left, .mountain-right {
-  animation-duration: 3s;
-  animation-delay: 4s;
+  animation-name: stroke-animation;
 }
 
 .cloud-left, .cloud-right,
 .sun {
-  animation-duration: 4s;
-  animation-delay: 6s;
+  animation-name: stroke-animation;
 }
 
 @keyframes stroke-animation {
   0% {
-    stroke-dasharray: 0% 150%;
+    stroke-dasharray: 0% 100%;
+    opacity: 0;
+  }
+  50% {
+    stroke-dasharray: 150% 0%;
+    opacity: 1;
   }
   100% {
-    stroke-dasharray: 150% 0%;
+    stroke-dasharray: 0%, 100%;
+    opacity: 0;
+  }
+  /* 100% {
+    stroke-dasharray: 0% 100%;
+    opacity: 0; */
   }
 }
