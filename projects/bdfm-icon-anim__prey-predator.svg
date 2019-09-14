@@ -1,0 +1,91 @@
+<!--  WLP Biodynamic Farming Icon Animation: Prey and Predator
+      Utilizes Porter Duff (Out) with feImage & feComposite
+      which is only optimal in Chrome as of Sept 2019
+      (Firefox does not support fragment SVG in xlink:href within feImage)
+      -->
+<svg id="bdfm-icon-anim__prey-predator" viewBox="0 0 135.21 180.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Biodynamic Farming Icon Animation: Prey and Predator</title>
+  <defs>
+    <style>
+      <!-- Fill & Stroke -->
+      #leaf {
+        fill: #000000;
+      }
+
+      #beatle--pd-out {
+        fill: #fafafa;
+      }
+
+      <!-- Animation -->
+      @keyframes up-and-down {
+        0% {
+          transform: translateY(0px) rotate(0deg);
+        }
+        40% {
+          transform: translateY(-65px) rotate(0deg);
+        }
+        50% {
+          transform: translateY(-65px) rotate(180deg);
+        }
+        90% {
+          transform: translateY(0px) rotate(180deg);
+        }
+        100% {
+          transform: translateY(0px) rotate(0deg);
+        }
+      }
+
+      @keyframes wing-flap-left {
+        0% {
+          transform: rotate(0deg);
+        }
+        50% {
+          transform: rotate(-9deg);
+        }
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+
+      @keyframes wing-flap-right {
+        0% {
+          transform: rotate(0deg);
+        }
+        50% {
+          transform: rotate(9deg);
+        }
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+
+      #beatle, #beatle--pd-out {
+        animation-name: up-and-down;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+      }
+
+      #wing-left {
+        animation-name: wing-flap-left;
+        animation-duration: 400ms;
+        animation-iteration-count: infinite;
+      }
+
+      #wing-right {
+        animation-name: wing-flap-right;
+        animation-duration: 400ms;
+        animation-iteration-count: infinite;
+      }
+
+      #wing-left, #wing-right, #beatle, #beatle--pd-out {
+        transform-origin: 67.607px 136.662px;
+      }
+    </style>
+  </defs>
+  <path id="leaf" d="M69,1.69,67.61,0,66.18,1.69c-.16.19-16.69,19.72-33,43.86C11.17,78.16,0,103.23,0,120.07c0,19.22,6.9,35,20,45.61,11.91,9.7,28.39,14.82,47.66,14.82s35.75-5.12,47.66-14.82c13-10.61,19.94-26.39,19.94-45.61C135.21,80.15,71.74,4.87,69,1.69ZM3.75,120.07a52.1,52.1,0,0,1,2.09-13.6l59.74,46.32v18.29L3.83,123.2C3.79,122.17,3.75,121.13,3.75,120.07Zm65.58,28.59V129l53.6-39.8a123.76,123.76,0,0,1,5.4,13.76Zm0-24.37V107.46l45.39-34.35c2.37,4.22,4.59,8.44,6.59,12.59Zm0-21.54V84.48l35.81-27.31c2.65,4.16,5.24,8.4,7.7,12.65Zm0-23V63.08l.15.2L96.1,43.57c2.33,3.38,4.68,6.87,7,10.44Zm0-21V40.05l15.34-12.4c2.94,4,6.08,8.28,9.28,12.84Zm0-23.49V7.93c2.9,3.56,7.57,9.4,13.09,16.72Zm-3.75.06L52.66,24.84c5.39-7.15,10-12.92,12.92-16.54Zm0,4.83v18L41.43,40.25c3.1-4.4,6.13-8.57,9-12.41Zm0,45.51v16.52L22.52,69.56c2.24-3.85,4.58-7.69,7-11.46Zm0,21.22v17.46L13.82,85.88c2.07-4.3,4.37-8.67,6.83-13Zm0,22.13V148L7,102.62A125.48,125.48,0,0,1,12.2,89.35Zm3.75,42.72V153.41l60.14-46.62a52.32,52.32,0,0,1,2,13.28c0,1.2,0,2.38-.08,3.54l-24.46,19Zm-30-128.37L65.58,62.8V80.91l-34.06-26C34.09,51,36.7,47.07,39.29,43.33ZM4.21,128.25l61.37,47.57v.9C37.43,176.12,8.17,163,4.21,128.25Zm65.12,48.47v-.27l39.89-30.92,21.72-16.84C126.78,163.21,97.46,176.22,69.33,176.72Z"/>
+  <circle id="beatle--pd-out" cx="67.61" cy="136.66" r="40.05"/>
+  <g id="beatle">
+    <path id="wing-left" d="M33,131.18a35.05,35.05,0,0,0,29.14,40.11L73.1,102A35.06,35.06,0,0,0,33,131.18Zm24.34,22.66A5.63,5.63,0,1,1,51.92,148,5.62,5.62,0,0,1,57.33,153.84Zm-3-19.2a7.72,7.72,0,1,1-7.42-8A7.71,7.71,0,0,1,54.28,134.64ZM63,117.81A5.63,5.63,0,1,1,57.63,112,5.63,5.63,0,0,1,63,117.81Z"/>
+    <path id="wing-right" d="M62.12,102l11,69.25a35.06,35.06,0,0,0-11-69.25ZM83.3,148a5.63,5.63,0,1,1-5.42,5.84A5.62,5.62,0,0,1,83.3,148Zm5-21.37a7.72,7.72,0,1,1-7.42,8A7.72,7.72,0,0,1,88.35,126.63ZM77.59,112a5.63,5.63,0,1,1-5.41,5.84A5.64,5.64,0,0,1,77.59,112Z"/>
+  </g>
+</svg>

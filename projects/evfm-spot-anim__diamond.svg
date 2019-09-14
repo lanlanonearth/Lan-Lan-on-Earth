@@ -1,0 +1,365 @@
+<!--  Everyday Family Spot Animation:
+      Boy with Diamond -->
+<svg id="evfm-spot-anim__diamond" viewBox="0 0 750 464.4" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      .background { fill: #ffc14e; }
+      .skin { fill: #db4c11; }
+
+      .diamond-stroke {
+        fill: none;
+        stroke: #fbb03b;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .backside {
+        opacity: 0.4;
+      }
+
+      @keyframes up-and-down-x {
+        0% {
+          transform: translate(0px);
+        }
+        25% {
+          transform: translate(10px,-10px);
+        }
+        50% {
+          transform: translate(0px);
+        }
+        75% {
+          transform: translate(-10px,-10px);
+        }
+        100% {
+          transform: translate(0px);
+        }
+      }
+
+      #diamond-pattern {
+              clip-path: url(#clipPath4);
+            }
+
+      #diamond-frame, #diamond-pattern, #boy-hand__right, #boy-hand__left {
+              animation-name: up-and-down;
+              animation-timing-function: linear;
+              animation-duration: 8s;
+              animation-iteration-count: infinite;
+            }
+    </style>
+    <defs>
+    <clipPath id="clipPath4">
+        <path d="M375,462.41l-83.24-98.54,40.56-40.12h85.4l40.56,40.12L375,462.41Z"/>
+    </clipPath>
+</defs>
+  </defs>
+  <title>evfm-spot__boy-diamond</title>
+  <rect class="background" width="750" height="463.53"/>
+  <g id="boy">
+    <path class="skin" d="M439.29,48.48l-1.22,0v0H310.71a93.52,93.52,0,1,0,0,187h15.5l-14.28,55.72H438.07l-9.3-55.72h10.52a93.52,93.52,0,1,0,0-187Z"/>
+    <path d="M607.88,322.3a79.92,79.92,0,0,0-77.68-61.22H219v0a79.75,79.75,0,0,0-62,31.5,61.46,61.46,0,0,0-9.17,15.11l-61,156.1H663.22Z"/>
+    <path d="M439.29,48.48l-1.22,0v0H310.71A93.46,93.46,0,0,0,229.88,95H520.12A93.46,93.46,0,0,0,439.29,48.48Z"/>
+    <path d="M375,197.77h0a47.57,47.57,0,0,1-33.86-14,7.09,7.09,0,1,1,10-10,33.68,33.68,0,0,0,47.66,0,7.09,7.09,0,1,1,10,10A47.55,47.55,0,0,1,375,197.77Z"/>
+    <circle cx="341.24" cy="142.24" r="12.17"/>
+    <circle cx="408.76" cy="142.24" r="12.17"/>
+    <path id="boy-hand__right" class="skin" d="M536.77,357.47l35.35,35.35-70.71,70.71-35.35-35.35a50,50,0,0,1,70.71-70.71Z"/>
+    <path id="boy-hand__left" class="skin" d="M283.94,357.47a50,50,0,0,1,0,70.71l-35.35,35.36-70.71-70.72,35.35-35.35A50,50,0,0,1,283.94,357.47Z"/>
+  </g>
+  <g id="diamond-frame" class="diamond-stroke">
+    <polyline points="458.26 363.87 375.03 363.87 374.98 363.87 292.12 363.87"/>
+    <polygon points="375.03 462.42 458.26 363.87 417.7 323.75 375.03 323.75 374.98 323.75 332.3 323.75 291.74 363.87 374.98 462.42 375.03 462.42"/>
+  </g>
+  <g id="diamond-pattern" class="diamond-stroke">
+    <!-- diamond pattern top branches (no stem) -->
+    <path id="top-branch1"/>
+      <animate xlink:href="#top-branch1"
+        attributeName="d"
+        from="M423,323.75m35.72,0-.23,15.69L423,323.75"
+        to="M327,323.75m0,0L291.5,339.44l-.22-15.69"
+        dur="8s" begin="0s"
+        repeatCount="indefinite" />
+    <path id="top-branch2"/>
+      <animate xlink:href="#top-branch2"
+        attributeName="d"
+        from="M423,323.75m35.72,0-.23,15.69L423,323.75"
+        to="M327,323.75m0,0L291.5,339.44l-.22-15.69"
+        dur="8s" begin="2s"
+        repeatCount="indefinite" />
+    <path id="top-branch3"/>
+      <animate xlink:href="#top-branch3"
+        attributeName="d"
+        from="M423,323.75m35.72,0-.23,15.69L423,323.75"
+        to="M327,323.75m0,0L291.5,339.44l-.22-15.69"
+        dur="8s" begin="4s"
+        repeatCount="indefinite" />
+    <path id="top-branch4"/>
+      <animate xlink:href="#top-branch4"
+        attributeName="d"
+        from="M423,323.75m35.72,0-.23,15.69L423,323.75"
+        to="M327,323.75m0,0L291.5,339.44l-.22-15.69"
+        dur="8s" begin="6s"
+        repeatCount="indefinite" />
+    <!-- diamond pattern top branches (no stem), backside -->
+    <path id="top-branch--back1" class="backside"/>
+      <animate xlink:href="#top-branch--back1"
+        attributeName="d"
+        from="M327,323.75m0,0L291.5,339.44l-.22-15.69"
+        to="M423,323.75m35.72,0-.23,15.69L423,323.75"
+        dur="8s" begin="0s"
+        repeatCount="indefinite" />
+    <path id="top-branch--back2" class="backside"/>
+      <animate xlink:href="#top-branch--back2"
+        attributeName="d"
+        from="M327,323.75m0,0L291.5,339.44l-.22-15.69"
+        to="M423,323.75m35.72,0-.23,15.69L423,323.75"
+        dur="8s" begin="2s"
+        repeatCount="indefinite" />
+    <path id="top-branch--back3" class="backside"/>
+      <animate xlink:href="#top-branch--back3"
+        attributeName="d"
+        from="M327,323.75m0,0L291.5,339.44l-.22-15.69"
+        to="M423,323.75m35.72,0-.23,15.69L423,323.75"
+        dur="8s" begin="4s"
+        repeatCount="indefinite" />
+    <path id="top-branch--back4" class="backside"/>
+      <animate xlink:href="#top-branch--back4"
+        attributeName="d"
+        from="M327,323.75m0,0L291.5,339.44l-.22-15.69"
+        to="M423,323.75m35.72,0-.23,15.69L423,323.75"
+        dur="8s" begin="6s"
+        repeatCount="indefinite" />
+    <!-- diamond pattern middle stems -->
+    <path id="middle-stem1"/>
+      <animate xlink:href="#middle-stem1"
+        attributeName="d"
+        from="M458.485,339.438,486.017,363.872"
+        to="M291.504,339.438,263.983,363.872"
+        dur="8s" begin="0s"
+        repeatCount="indefinite" />
+    <path id="middle-stem2"/>
+      <animate xlink:href="#middle-stem2"
+        attributeName="d"
+        from="M458.485,339.438,486.017,363.872"
+        to="M291.504,339.438,263.983,363.872"
+        dur="8s" begin="2s"
+        repeatCount="indefinite" />
+    <path id="middle-stem3"/>
+      <animate xlink:href="#middle-stem3"
+        attributeName="d"
+        from="M458.485,339.438,486.017,363.872"
+        to="M291.504,339.438,263.983,363.872"
+        dur="8s" begin="4s"
+        repeatCount="indefinite" />
+    <path id="middle-stem4"/>
+      <animate xlink:href="#middle-stem4"
+        attributeName="d"
+        from="M458.485,339.438,486.017,363.872"
+        to="M291.504,339.438,263.983,363.872"
+        dur="8s" begin="6s"
+        repeatCount="indefinite" />
+    <!-- diamond pattern middle stems, backside -->
+    <path id="middle-stem--back1" class="backside"/>
+      <animate xlink:href="#middle-stem--back1"
+        attributeName="d"
+        from="M291.504,339.438,263.983,363.872"
+        to="M458.485,339.438,486.017,363.872"
+        dur="8s" begin="0s"
+        repeatCount="indefinite" />
+    <path id="middle-stem--back2" class="backside"/>
+      <animate xlink:href="#middle-stem--back2"
+        attributeName="d"
+        from="M291.504,339.438,263.983,363.872"
+        to="M458.485,339.438,486.017,363.872"
+        dur="8s" begin="2s"
+        repeatCount="indefinite" />
+    <path id="middle-stem--back3" class="backside"/>
+      <animate xlink:href="#middle-stem--back3"
+        attributeName="d"
+        from="M291.504,339.438,263.983,363.872"
+        to="M458.485,339.438,486.017,363.872"
+        dur="8s" begin="4s"
+        repeatCount="indefinite" />
+    <path id="middle-stem--back4" class="backside"/>
+      <animate xlink:href="#middle-stem--back4"
+        attributeName="d"
+        from="M291.504,339.438,263.983,363.872"
+        to="M458.485,339.438,486.017,363.872"
+        dur="8s" begin="6s"
+        repeatCount="indefinite" />
+    <!-- diamond pattern middle branches -->
+    <path id="middle-branch1"/>
+      <animate xlink:href="#middle-branch1"
+        attributeName="d"
+        from="M458.26,363.87l.22-24.43,55.29,24.4"
+        to="M236.23,363.87l55.58-24.43-.07,24.43"
+        dur="8s" begin="0s"
+        repeatCount="indefinite" />
+    <path id="middle-branch2"/>
+      <animate xlink:href="#middle-branch2"
+        attributeName="d"
+        from="M458.26,363.87l.22-24.43,55.29,24.4"
+        to="M236.23,363.87l55.58-24.43-.07,24.43"
+        dur="8s" begin="2s"
+        repeatCount="indefinite" />
+    <path id="middle-branch3"/>
+      <animate xlink:href="#middle-branch3"
+        attributeName="d"
+        from="M458.26,363.87l.22-24.43,55.29,24.4"
+        to="M236.23,363.87l55.58-24.43-.07,24.43"
+        dur="8s" begin="4s"
+        repeatCount="indefinite" />
+    <path id="middle-branch4"/>
+      <animate xlink:href="#middle-branch4"
+        attributeName="d"
+        from="M458.26,363.87l.22-24.43,55.29,24.4"
+        to="M236.23,363.87l55.58-24.43-.07,24.43"
+        dur="8s" begin="6s"
+        repeatCount="indefinite" />
+    <!-- diamond pattern middle branches, backside -->
+    <path id="middle-branch--back1" class="backside"/>
+      <animate xlink:href="#middle-branch--back1"
+        attributeName="d"
+        from="M236.23,363.87l55.58-24.43-.07,24.43"
+        to="M458.26,363.87l.22-24.43,55.29,24.4M"
+        dur="8s" begin="0s"
+        repeatCount="indefinite" />
+    <path id="middle-branch--back2" class="backside"/>
+      <animate xlink:href="#middle-branch--back2"
+        attributeName="d"
+        from="M236.23,363.87l55.58-24.43-.07,24.43"
+        to="M458.26,363.87l.22-24.43,55.29,24.4M"
+        dur="8s" begin="2s"
+        repeatCount="indefinite" />
+    <path id="middle-branch--back3" class="backside"/>
+      <animate xlink:href="#middle-branch--back3"
+        attributeName="d"
+        from="M236.23,363.87l55.58-24.43-.07,24.43"
+        to="M458.26,363.87l.22-24.43,55.29,24.4M"
+        dur="8s" begin="4s"
+        repeatCount="indefinite" />
+    <path id="middle-branch--back4" class="backside"/>
+      <animate xlink:href="#middle-branch--back4"
+        attributeName="d"
+        from="M236.23,363.87l55.58-24.43-.07,24.43"
+        to="M458.26,363.87l.22-24.43,55.29,24.4M"
+        dur="8s" begin="6s"
+        repeatCount="indefinite" />
+    <!-- diamond pattern bottom stems -->
+    <path id="bottom-stem1"/>
+      <animate xlink:href="#bottom-stem1"
+        attributeName="d"
+        from="M486.017,363.872,374.978,462.415"
+        to="M263.983,363.872,374.978,462.415"
+        dur="8s" begin="0s"
+        repeatCount="indefinite" />
+    <path id="bottom-stem2"/>
+      <animate xlink:href="#bottom-stem2"
+        attributeName="d"
+        from="M486.017,363.872,374.978,462.415"
+        to="M263.983,363.872,374.978,462.415"
+        dur="8s" begin="2s"
+        repeatCount="indefinite" />
+    <path id="bottom-stem3"/>
+      <animate xlink:href="#bottom-stem3"
+        attributeName="d"
+        from="M486.017,363.872,374.978,462.415"
+        to="M263.983,363.872,374.978,462.415"
+        dur="8s" begin="4s"
+        repeatCount="indefinite" />
+    <path id="bottom-stem4"/>
+      <animate xlink:href="#bottom-stem4"
+        attributeName="d"
+        from="M486.017,363.872,374.978,462.415"
+        to="M263.983,363.872,374.978,462.415"
+        dur="8s" begin="6s"
+        repeatCount="indefinite" />
+    <!-- diamond pattern bottom branches -->
+    <path id="bottom-branch1"/>
+      <animate xlink:href="#bottom-branch1"
+        attributeName="d"
+        from="M513.77,363.87,414,427.78l44.25-63.91"
+        to="M291.73,363.87,336,427.78l-99.74-63.91"
+        dur="8s" begin="0s"
+        repeatCount="indefinite" />
+    <path id="bottom-branch2"/>
+      <animate xlink:href="#bottom-branch2"
+        attributeName="d"
+        from="M513.77,363.87,414,427.78l44.25-63.91"
+        to="M291.73,363.87,336,427.78l-99.74-63.91"
+        dur="8s" begin="2s"
+        repeatCount="indefinite" />
+    <path id="bottom-branch3"/>
+      <animate xlink:href="#bottom-branch3"
+        attributeName="d"
+        from="M513.77,363.87,414,427.78l44.25-63.91"
+        to="M291.73,363.87,336,427.78l-99.74-63.91"
+        dur="8s" begin="4s"
+        repeatCount="indefinite" />
+    <path id="bottom-branch4"/>
+      <animate xlink:href="#bottom-branch4"
+        attributeName="d"
+        from="M513.77,363.87,414,427.78l44.25-63.91"
+        to="M291.73,363.87,336,427.78l-99.74-63.91"
+        dur="8s" begin="6s"
+        repeatCount="indefinite" />
+    <!-- diamond pattern bottom stems, backside -->
+    <path id="bottom-stem--back1" class="backside"/>
+      <animate xlink:href="#bottom-stem--back1"
+          attributeName="d"
+          from="M263.983,363.872,374.978,462.415"
+          to="M486.017,363.872,374.978,462.415"
+          dur="8s" begin="0s"
+          repeatCount="indefinite" />
+    <path id="bottom-stem--back2" class="backside"/>
+      <animate xlink:href="#bottom-stem--back2"
+          attributeName="d"
+          from="M263.983,363.872,374.978,462.415"
+          to="M486.017,363.872,374.978,462.415"
+          dur="8s" begin="2s"
+          repeatCount="indefinite" />
+    <path id="bottom-stem--back3" class="backside"/>
+      <animate xlink:href="#bottom-stem--back3"
+          attributeName="d"
+          from="M263.983,363.872,374.978,462.415"
+          to="M486.017,363.872,374.978,462.415"
+          dur="8s" begin="4s"
+          repeatCount="indefinite" />
+    <path id="bottom-stem--back4" class="backside"/>
+      <animate xlink:href="#bottom-stem--back4"
+          attributeName="d"
+          from="M263.983,363.872,374.978,462.415"
+          to="M486.017,363.872,374.978,462.415"
+          dur="8s" begin="6s"
+          repeatCount="indefinite" />
+    <!-- diamond pattern bottom branches, backside -->
+    <path id="bottom-branch--back1" class="backside"/>
+      <animate xlink:href="#bottom-branch--back1"
+        attributeName="d"
+        from="M291.73,363.87,336,427.78l-99.74-63.91"
+        to="M513.77,363.87,414,427.78l44.25-63.91"
+        dur="8s" begin="0s"
+        repeatCount="indefinite" />
+    <path id="bottom-branch--back2" class="backside"/>
+      <animate xlink:href="#bottom-branch--back2"
+        attributeName="d"
+        from="M291.73,363.87,336,427.78l-99.74-63.91"
+        to="M513.77,363.87,414,427.78l44.25-63.91"
+        dur="8s" begin="2s"
+        repeatCount="indefinite" />
+    <path id="bottom-branch--back3" class="backside"/>
+      <animate xlink:href="#bottom-branch--back3"
+        attributeName="d"
+        from="M291.73,363.87,336,427.78l-99.74-63.91"
+        to="M513.77,363.87,414,427.78l44.25-63.91"
+        dur="8s" begin="4s"
+        repeatCount="indefinite" />
+    <path id="bottom-branch--back4" class="backside"/>
+      <animate xlink:href="#bottom-branch--back4"
+        attributeName="d"
+        from="M291.73,363.87,336,427.78l-99.74-63.91"
+        to="M513.77,363.87,414,427.78l44.25-63.91"
+        dur="8s" begin="6s"
+        repeatCount="indefinite" />
+
+
+  </g>
+</svg>

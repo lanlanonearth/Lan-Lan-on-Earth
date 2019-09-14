@@ -2,101 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!-- disable viewport zooming and allow responsive design -->
-  <meta name='viewport'
-      content='wclassth=device-wclassth, initial-scale=1.0, maximum-scale=1.0' />
-  <title>Lan Lan Liu : Illustration & Animation</title>
-
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
   <!-- site css files -->
-  <link rel="stylesheet" href="site/css/global.css">
-  <link rel="stylesheet" href="site/css/style.css">
-  <link rel="stylesheet" href="site/css/components.css">
-  <link rel="stylesheet" href="site/css/media-queries.css">
-
-  <!-- work css files -->
-  <link rel="stylesheet" href="work/01/player-animation.css">
-  <link rel="stylesheet" href="work/02/everydayfood-icon.css">
-  <link rel="stylesheet" href="work/03/biodynamicfarming-icon.css">
-
-
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Lan Lan Liu : Illustration & Animation</title>
 </head>
 <body>
-
-<!-- floating menu -->
-<header>
-  <nav class="nav">
-    <ul class="nav__ul">
-      <li class="nav__li">
-      <a href="https://dribbble.com/lanlanonearth" target"_blank">
-        <img class="link-icon" src="site/img/e-mail-envelope.svg">
-      </a></li>
+  <!-- header -->
+  <header class="site-header">
+      <span class="site-header__title"><h2>Lan Lan Liu</h2></span>
+    <nav class="site-nav">
+      <ul>
+        <li>Illustrator & Animator</li>
+        <li><a href="mailto:lanlanonearth@gmail.com">Email</a></li>
       </ul>
-  </nav>
-</header>
-
-
-<div class="global-container">
-    <!--player animation-->
-    <article>
-      <section class="sportsplayer">
-              <div class="stillparts">
-              <!--body parts-->
-              <div class="arm-up"></div>
-              <div class="hand-up"></div>
-              <div class="armhand-down"></div>
-              <div class="feet-down"></div>
-              <div class="feet-up"></div>
-              <!--sports items-->
-              <div class="basketball"></div>
-              <div class="soccer"></div>
-              <div class="shuttlecock"></div>
-              <div class="yo-yo"></div>
-            </div>
-        </section>
-      </article>
-
-      <article>
-        <section class="everydayfood">
-          <div class="card-container">
-            <div class="card-item-icon food-1"></div>
-            <div class="card-item-icon food-2"></div>
-            <div class="card-item-icon food-3"></div>
-            <div class="card-item-icon food-4"></div>
-          </div>
-        </section>
-      </article>
-
-      <article>
-        <section class="biodynamicfarming">
-          <div class="card-container2">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214.19 216.09">
-            <path class="path-biodynamicfarming sun" d="M165.82,55.84a21.33,21.33,0,1,0-35.19.27"/>
-            <path class="path-biodynamicfarming cloud-right" d="M198.32,77.75h-135"/>
-            <path class="path-biodynamicfarming cloud-left" d="M28,64.57H121.9"/>
-            <path class="path-biodynamicfarming trunk-1" d="M46,164.61V131.32"/>
-            <path class="path-biodynamicfarming trunk-2" d="M86.83,164.61V131.32"/>
-            <path class="path-biodynamicfarming trunk-3" d="M127.8,164.61V131.32"/>
-            <path class="path-biodynamicfarming trunk-4" d="M168.7,164.61V131.32"/>
-            <path class="path-biodynamicfarming treebase-left" d="M21.25,155.75h85.84"/>
-            <path class="path-biodynamicfarming treebase-right" d="M192.78,155.75H107.09"/>
-            <path class="path-biodynamicfarming riverbottom-left" d="M14.5,188.51c11.57,0,11.57,5,23.14,5s11.57-5,23.14-5,11.57,5,23.14,5,11.57-5,23.14-5"/>
-            <path class="path-biodynamicfarming riverbottom-right" d="M199.68,188.51c-11.58,0-11.58,5-23.16,5s-11.58-5-23.16-5-11.57,5-23.14,5-11.58-5-23.16-5"/>
-            <path class="path-biodynamicfarming rivertop-left" d="M15.64,168.82c11.38,0,11.38,5,22.77,5s11.38-5,22.77-5,11.39,5,22.77,5,11.39-5,22.78-5"/>
-            <path class="path-biodynamicfarming rivertop-right" d="M197.88,168.82c-11.39,0-11.39,5-22.79,5s-11.4-5-22.8-5-11.38,5-22.77,5-11.4-5-22.79-5"/>
-            <path class="path-biodynamicfarming wave-1" d="M14.5,178.3c7.61,0,10.22,2.16,14.4,3.64"/>
-            <path class="path-biodynamicfarming wave-2" d="M61.05,178.3a26,26,0,0,1,7.55,1.06c2.45.73,4.7,2,7.13,2.77a25.94,25.94,0,0,0,7.53,1.15,27.68,27.68,0,0,0,7.59-.78"/>
-            <path class="path-biodynamicfarming wave-3" d="M153.13,178.3a26,26,0,0,0-7.55,1c-2.45.73-4.71,2-7.13,2.77a25.68,25.68,0,0,1-7.53,1.17,27.29,27.29,0,0,1-7.59-.77"/>
-            <path class="path-biodynamicfarming wave-4" d="M199.68,178.3c-7.61,0-10.22,2.16-14.4,3.64"/>
-            <path class="path-biodynamicfarming tree-right" d="M198.53,168.58l-30.28-75.9h0L148.2,146.43,127.8,93.9l-20.71,52.8"/>
-            <path class="path-biodynamicfarming tree-left" d="M15.51,168.58,46.12,92.8l20.2,53.67L87,94.82l20.1,51.88"/>
-            <path class="path-biodynamicfarming mountain-right" d="M168.25,92.68,148.09,42.14,127.8,93.9"/>
-            <path class="path-biodynamicfarming mountain-left" d="M46.15,92.72,66.58,42.14,86.66,94"/>
-            
-          </div>
-          <!--div>
-            caption</div-->
-        </section>
-      </article>
-
-
-        </div></body></html>
+    </nav>
+  </header>
+  <!-- thumbnail collection -->
+  <div class="thumbnail-container">
+    <div class="thumbnail-item white">
+      <div class="spot-frame">
+        <img src="projects/evfd-spot__hi-spinach.svg"/>
+      </div>
+    </div>
+    <div class="thumbnail-item">
+      <div class="spot-m">
+        <img src="projects/evfd-spot__green-trio.svg" class="img-border"/>
+      </div>
+    </div>
+    <div class="thumbnail-item">
+      <div class="icon">
+        <img src="projects/bdfm-icon-anim__prey-predator.svg"/>
+      </div>
+    </div>
+    <div class="thumbnail-item">
+      <div class="spot-l">
+        <img src="projects/evfm-spot-anim__diamond.svg"/>
+      </div>
+    </div>
+    <div class="thumbnail-item">
+      <div class="spot-m">
+        <img src="projects/evfd-spot__nuts.svg"/>
+      </div>
+    </div>
+    <div class="thumbnail-item">
+      <div class="spot-l">
+        <img src="projects/evfm-spot__family.svg"/>
+      </div>
+    </div>
+    <div class="thumbnail-item">
+      <div class="spot-l">
+        <img src="projects/apst-LHR-spot__bus.svg"/>
+      </div>
+    </div>
+    <div class="thumbnail-item">
+      <div class="spot-m">
+        <img src="projects/evfd-spot__seafood.svg"/>
+      </div>
+    </div>
+    <div class="thumbnail-item white">
+      <div class="spot-frame">
+        <img src="projects/evfd-spot__kitchen.svg"/>
+      </div>
+    </div>
+    <div class="thumbnail-item">
+      <div class="icon">
+        <img src="projects/bdfm-icon__biodiversity.svg"/>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
