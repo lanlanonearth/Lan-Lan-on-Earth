@@ -9,6 +9,764 @@
 	],
 "creatorBuild": "31491",
 "files": {
+	"/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/publish/index.html",
+		"oF": 0
+		},
+	"/projects/apst-LHR-spot__bus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/apst-LHR-spot__bus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/bdfm-icon-anim__prey-predator.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/bdfm-icon-anim__prey-predator.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/bdfm-icon__biodiversity.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/bdfm-icon__biodiversity.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/evfd-spot__green-trio.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/evfd-spot__green-trio.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/evfd-spot__hi-spinach.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/evfd-spot__hi-spinach.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/evfd-spot__kitchen.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/evfd-spot__kitchen.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/evfd-spot__nuts.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/evfd-spot__nuts.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/evfd-spot__seafood.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/evfd-spot__seafood.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/evfm-spot-anim__diamond-backup.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/evfm-spot-anim__diamond-backup.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/evfm-spot-anim__diamond.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/evfm-spot-anim__diamond.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/evfm-spot__family.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/evfm-spot__family.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-min-min.css",
+		"oF": 0,
+		"oS": 1
+		},
+	"/projects/old/01/player-animation-svg/arm-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/arm-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/arm-up.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/arm-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/armhand-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/armhand-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/background.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/background.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/basketball-pattern.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/basketball-pattern.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/basketball.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/basketball.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/eye.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/eye.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/feet-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/feet-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/feet-up.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/feet-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/hand-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/hand-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/hand-up.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/hand-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/head.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/head.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/leg-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/leg-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/leg-up.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/leg-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/mouth.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/mouth.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/player-stillparts.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/player-stillparts.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/shuttlecock.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/shuttlecock.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/soccer-pattern.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/soccer-pattern.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/soccer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/soccer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/trunk.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/trunk.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/yo-yo-ball.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/yo-yo-ball.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/yo-yo-string.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/yo-yo-string.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/01/player-animation-svg/yo-yo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/01/player-animation-svg/yo-yo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-four-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-four-min-min.css",
+		"oF": 0,
+		"oS": 1
+		},
+	"/projects/old/02/everydayfood-icon-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-min-min.css",
+		"oF": 0,
+		"oS": 1
+		},
+	"/projects/old/02/everydayfood-icon-svg/almond.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/almond.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/asparagus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/asparagus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/avocado.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/avocado.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/banana.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/banana.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/bean.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/bean.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/blueberry.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/blueberry.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/bread.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/bread.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/carrot.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/carrot.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/cashew.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/cashew.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/celery.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/celery.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/cheese.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/cheese.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/chocolate.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/chocolate.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/corn.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/corn.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/egg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/egg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/fish.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/fish.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/garlic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/garlic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/meat.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/meat.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/milk.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/milk.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/mushroom.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/mushroom.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/pea.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/pea.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/peanut.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/peanut.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/pistachio.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/pistachio.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/seaweed.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/seaweed.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/shrimp.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/shrimp.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/spinach.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/spinach.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/tomato.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/tomato.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/water.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/water.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/02/everydayfood-icon-svg/yam.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/02/everydayfood-icon-svg/yam.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/03/biodynamicfarming-icon-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "/publish/projects/old/03/biodynamicfarming-icon-min-min.css",
+		"oF": 0,
+		"oS": 1
+		},
+	"/projects/old/03/biodynamicfarming-icon-svg/biodynamicfarming-icon_integrated.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/03/biodynamicfarming-icon-svg/biodynamicfarming-icon_integrated.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/03/biodynamicfarming-icon-svg/integrated-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/03/biodynamicfarming-icon-svg/integrated-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/03/biodynamicfarming-icon-svg/integrated-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/03/biodynamicfarming-icon-svg/integrated-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/03/biodynamicfarming-icon-svg/integrated.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/03/biodynamicfarming-icon-svg/integrated.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/projects/old/03/biodynamicfarming-icon.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/publish/projects/old/03/biodynamicfarming-icon.html",
+		"oF": 0
+		},
+	"/projects/old/03/biodynamicfarming-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/publish/projects/old/03/biodynamicfarming-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/publish": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/publish/publish",
+		"oF": 0
+		},
+	"/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/publish/README.html",
+		"oF": 0
+		},
+	"/source/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/publish/index.html",
+		"oF": 0
+		},
+	"/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "/publish/style-min.css",
+		"oF": 0,
+		"oS": 1
+		}
 	},
 "hooks": [
 	],
